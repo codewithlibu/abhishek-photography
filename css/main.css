@@ -1,0 +1,167 @@
+body {
+    
+    overflow-x
+    : hidden;
+    background-color: black;
+}
+
+
+/* Section styles */
+section {
+    padding: 3vw 0vw;
+    padding-bottom: 2vw;
+    text-align: center;
+    
+}
+
+section h2 {
+    font-size: 2vw;
+    margin-bottom: 1vw;
+}
+
+section p {
+    font-size: 1.2vw;
+    margin-bottom: 1vw;
+}
+
+.btn-get-started {
+    
+
+    display: inline-block;
+    padding: 0.5vw 2.5vw;
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+    color: #fff;
+    margin-left: 0vw;
+    margin-right: 0vw;
+    background-color: #27a766;
+    text-decoration: none;
+    border-radius: 0.2vw;
+}
+
+/* Gallery styles */
+section div {
+    display:inline ;
+    margin-bottom: 20px;
+    
+
+}
+
+section div img {
+    border-radius: 35px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+    padding: 0.5vw;
+    width: 29vw;
+}
+/*
+section div img:hover {
+    transform: scale(1.1);
+
+}
+*/
+
+/* Footer styles */
+footer {
+
+    color: #fff;
+    text-align: center;
+    padding: 2vw 0px;
+    font-size: 1vw;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+ul li { 
+    display: block;
+    float: left;
+    font-size: 1.1vw;
+    
+}
+li:hover ul {
+    display: block;
+    position: absolute;
+}
+li:hover li{ 
+    float: none;
+}
+li ul{
+    display: none;
+    
+}
+ul li a{
+    display: block;
+
+    text-decoration:none;
+    color: white;
+
+    
+    
+    text-align: center;
+    padding:  20px;
+    
+}
+h1 {
+    color:white;
+   font-size: 1.9vw;
+}
+h2{
+    
+   
+    
+    font-size: 38px;
+    font-weight: 700;
+    color: #fff;
+    font-family: var(--font-secondary);
+}
+p{
+    
+
+    color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+h2 span{
+
+  
+  padding: 0 5px;
+  display: inline-block;
+  color: #27a766 ;
+  
+}
+.abhishek ul li a:hover {
+    background-color:  #27a766;
+    color: black;
+    
+}
+
+.section span{
+    margin-left: 50%;
+}
+.navcenter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fixedtop{
+    position:fixed;
+    background-color: #000;
+    top: 0;
+    right: 0;
+    left: 0;
+    
+    padding: 0.1vw 0;
+    
+    
+    
+    
+}
+
